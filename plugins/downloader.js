@@ -1432,7 +1432,7 @@ smd(
  smd(
    {
      pattern: "tiktok2",
-      alias: ["tt", "ttdl","tk"],
+      alias: ["kt", "tl","tk"],
      desc: "Downloads Tiktok Videos Via Url.",
      category: "downloader",
      filename: __filename,
@@ -1453,7 +1453,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://api.maher-zubair.tech/download/tiktok2?url=${encodeURIComponent(
+       const apiUrl = `https://aemt.me/download/tiktokdl?url=${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
