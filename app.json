@@ -12,6 +12,11 @@
       "value": "𝐖𝐀𝐒𝐈-𝐓𝐄𝐂𝐇",
       "required": true
     },
+    "IMAGE" : {
+      "description": "THUMB IMAGE FOR BOT ",
+      "value": "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg",
+      "required" : true
+    },
 
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
