@@ -319,8 +319,9 @@ ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
 *🚩𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2🖤*
-🌞SUPPORT ME BY FOLLOWING MY CHANNEL 🌞
-https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
+ᴋᴇᴇᴘ ᴜsɪɴɢ ᴡᴀsɪ ᴇᴅɪᴛx
+
+
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -350,7 +351,8 @@ ${readmore}`;
           menuText += `${menuThemeCommandFooter}\n`;
         }
       }
-      menuText += Config.caption;
+      menuText += 🌞SUPPORT ME BY FOLLOWING MY CHANNEL 🌞
+https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j;
 
       const messageOptions = {
         caption: menuText,
