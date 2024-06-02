@@ -317,10 +317,11 @@ ${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
 ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
-${menuThemeFooter}                         
+${menuThemeFooter}  
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 *🚩𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2🖤*
 ᴋᴇᴇᴘ ᴜsɪɴɢ ᴡᴀsɪ ᴇᴅɪᴛx
-
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 
 ${readmore}`;
 
@@ -351,8 +352,7 @@ ${readmore}`;
           menuText += `${menuThemeCommandFooter}\n`;
         }
       }
-      menuText += 🌞SUPPORT ME BY FOLLOWING MY CHANNEL 🌞
-https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j;
+      menuText += Config.caption;
 
       const messageOptions = {
         caption: menuText,
