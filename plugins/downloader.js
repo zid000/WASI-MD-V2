@@ -1346,6 +1346,7 @@ smd(
  }
  smd({
    pattern: "sound",
+    alias: ["wasii", "aine","mentalism","alive","waso"],
    desc: "Downloads ringtone.",
    category: "downloader",
    filename: __filename,
