@@ -1410,7 +1410,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://api-smd.onrender.com/api/ttdl2";
+       const apiUrl = "https://aemt.me/download/ttdl?url=";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1422,7 +1422,7 @@ smd(
            message
          );
        } else {
-         return await message.reply("Error While Downloading Your Video");
+         return await message.reply("sᴏʀʀʏ ʙᴜᴅᴅʏ ɪ ᴀᴍ ғᴀᴄɪɴɢ ɪɴᴛᴇʀɴᴀʟ sᴇʀᴠᴇʀ ᴇʀʀᴏʀ");
        }
      } catch (error) {
        return message.error(`${error}\n\ncommand: tiktok`, error);
@@ -1432,6 +1432,7 @@ smd(
  smd(
    {
      pattern: "tiktok2",
+      alias: ["tt", "ttdl","tk"],
      desc: "Downloads Tiktok Videos Via Url.",
      category: "downloader",
      filename: __filename,
