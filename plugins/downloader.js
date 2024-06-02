@@ -1410,7 +1410,7 @@ smd(
          );
        }
  
-       const apiUrl = "https://aemt.me/download/ttdl?url=";
+       const apiUrl = "https://aemt.me/download/ttdl";
        const response = await fetch(`${apiUrl}?url=${tiktokUrl}`);
        const data = await response.json();
  
@@ -1453,7 +1453,7 @@ smd(
          );
        }
  
-       const apiUrl = `https://api.maher-zubair.tech/download/tiktok?url=${encodeURIComponent(
+       const apiUrl = `https://api.maher-zubair.tech/download/tiktok ${encodeURIComponent(
          tiktokUrl
        )}`;
        const response = await fetchJson(apiUrl);
