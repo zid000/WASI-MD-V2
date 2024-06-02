@@ -84,7 +84,7 @@ function parseDmiDecodeOutput(output) {
 
   return ramInfo;
 }
-/*
+
 smd(
   {
     cmdname: "update",
@@ -198,7 +198,7 @@ smd(
       log("❌ ERROR INSTALATION PLUGINS ", error);
     }
   }
-); */
+); 
 astro_patch.smd(
   {
     cmdname: "menu",
@@ -318,7 +318,7 @@ ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*𝚆𝙰𝚂𝙸-𝙼𝙳-𝚅2*
+*🚩𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2🖤*
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -540,7 +540,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*𝘓𝘢𝘵𝘦𝘯𝘤𝘺.................🙆‍♂️: ${pingTime} ᴍs*`,
+      `*🚩....ʟʀᴛᴇɴᴄʏ....🙆🏻‍♂️.: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
