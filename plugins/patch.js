@@ -319,15 +319,11 @@ ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}  
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
-${${Config.ownername}
+${Config.ownername}
   THANKS DEAR FOR USING WASI MD V2 👀 \n Hope so you like this bot \n 
-
-▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 
 *🚩𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2🖤*
 ᴋᴇᴇᴘ ᴜsɪɴɢ ᴡᴀsɪ ᴇᴅɪᴛx
-
-${m.pushName} ENJOY BUDDY 
 
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 
