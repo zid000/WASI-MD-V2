@@ -323,7 +323,7 @@ ${menuThemeFooter}
 ᴋᴇᴇᴘ ᴜsɪɴɢ ᴡᴀsɪ ᴇᴅɪᴛx
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 
-${readmore}`;
+`;
 
       for (const category in categorizedCommands) {
         menuText += `
