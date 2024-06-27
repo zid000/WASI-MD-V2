@@ -264,11 +264,11 @@ astro_patch.smd(
         Config.menu.toLowerCase().includes("menu1")
       ) {
         menuThemeHeader = "╭━━━〔 *" + Config.botname + "* 〕━━━┈⊷";
-        menuThemeCommandPrefix = "┃☆│";
+        menuThemeCommandPrefix = "┃☆│🙆‍♂️🗿";
         menuThemeFooter = "┃☆╰──────────────\n╰━━━━━━━━━━━━━━━┈⊷";
         menuThemeCategoryHeader = "╭─────────────┈⊷\n│「";
         menuThemeCategoryFooter = "」\n╰┬────────────┈⊷";
-        menuThemeCommandPrefix = "││🇵🇰🙆‍♂️";
+        menuThemeCommandPrefix = "││🙆‍♂️🗿";
         menuThemeCommandFooter = "│╰────────────┈⊷\n╰─────────────┈⊷";
       } else if (
         menuThemeType === 2 ||
@@ -288,7 +288,7 @@ astro_patch.smd(
         menuThemeFooter = "╰═══════════════⊷";
         menuThemeCategoryHeader = "╭─❍";
         menuThemeCategoryFooter = "══⊷❍";
-        menuThemeCommandPrefix = "│";
+        menuThemeCommandPrefix = "│🙆‍♂️🗿";
         menuThemeCommandFooter = "╰════════════─⊷";
       }
 
@@ -309,14 +309,14 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
 ${menuThemeHeader}
-${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
-${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
-${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
-${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴏᴡɴᴇʀ:* ${Config.ownername}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴛɪᴍᴇ:* ${currentTime}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴅᴀᴛᴇ:* ${currentDate}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
+${menuThemeCommandPrefix} *🙆‍♂️🗿ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}  
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 ${Config.ownername}
