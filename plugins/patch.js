@@ -309,22 +309,23 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
 ${menuThemeHeader}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴛɪᴍᴇ:* ${currentTime}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴅᴀᴛᴇ:* ${currentDate}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *🙆‍♂️🗿ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
+${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
+${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
+${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
+${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
+${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
+${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
+${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
+${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}  
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 ${Config.ownername}
-  THANKS DEAR FOR USING WASI MD V2 👀 \n Hope so you like this bot \n 
+▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰ \n
+
+𝚻𝚮𝚫𝚴𝐊 𝐘𝚯𝐔 𝐒𝚯 𝚳𝐔𝐂𝚮 \n 𝚳𝚪 ${pushname} 𝐅𝚯𝚪 𝐔𝐒𝚰𝚴𝐆 𝐖𝚮𝚫𝚻𝐒𝚫𝚸𝚸 \n 𝐖𝚮𝚫𝚻 𝚰𝐅 𝐘𝚯𝐔 𝐖𝚫𝚴𝚻 𝚻𝚯 𝚫𝐒𝐊 𝚫𝚴𝐘𝚻𝚮𝚰𝚴𝐆 \n 𝚻𝚯 𝚳𝚵 𝐂𝚯𝚴𝚻𝚫𝐂𝚻 𝚳𝚵 𝚫𝚻 \n t.me/wasitech
 
 *🚩𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2🖤*
 ᴋᴇᴇᴘ ᴜsɪɴɢ ᴡᴀsɪ ᴇᴅɪᴛx
-
 ▱▰▱▰▱▰▱▰▱▰▱▱▰▱▱▰
 
 ${readmore}`;
