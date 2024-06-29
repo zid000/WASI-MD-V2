@@ -1138,6 +1138,7 @@ smd(
  smd(
    {
      pattern: "gitclone",
+      react: "👀",
      desc: "Downloads apks  .",
      category: "downloader",
      filename: __filename,
